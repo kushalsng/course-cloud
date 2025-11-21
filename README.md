@@ -1,4 +1,4 @@
-# Decentralized E-Learning Platform - Project Documentation
+# Decentralized E-Learning Platform
 
 ## 1. Project Summary
 A robust, scalable **Microservices-based E-Learning Platform** built with **Spring Boot** and **Spring Cloud**. The system features a decentralized architecture where services like User Management, Course Catalog, Enrollment, and Billing operate independently but communicate seamlessly via **REST APIs (Feign Clients)** and **Asynchronous Messaging (RabbitMQ)**. Key engineering highlights include **Service Discovery (Eureka)**, **Centralized Configuration**, **API Gateway routing**, and **Fault Tolerance** using **Resilience4j Circuit Breakers** to ensure high availability even during partial system failures.
